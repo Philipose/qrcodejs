@@ -239,7 +239,7 @@ var QRCode;
 			var nCount = oQRCode.getModuleCount();
 			var nWidth = Math.floor(_htOption.width / nCount);
 			var nHeight = Math.floor(_htOption.height / nCount);
-			var aHTML = ['<table style="border:0;border-collapse:collapse;max-width:100%;max-height:100%;">'];
+			var aHTML = ['<table style="border:0;border-collapse:collapse;max-width:80%;max-height:80%;">'];
 			
 			for (var row = 0; row < nCount; row++) {
 				aHTML.push('<tr>');
