@@ -366,6 +366,8 @@ var QRCode;
 			this._elImage.style.display = "none";
 			this._el.appendChild(this._elImage);
 			this._bSupportDataURI = null;
+			this.width = window.innerWidth;
+			this.width = window.innerHeight;
 		};
 			
 		/**
